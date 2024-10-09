@@ -138,6 +138,35 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 
+.header{
+  postion: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow .4s, background-color .4s; 
+}
+
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--first-color);
+  font-weight: var(--font-medium);  
+}
+
+.nav__logo i{
+  font-size: 1.25rem;
+}
+
 
 /* Navigation for mobile devices */
 
