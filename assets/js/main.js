@@ -13,9 +13,9 @@ if(searchButton){
 }
 
 /* Menu hidden */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
+if(searchClose){
+    searchClose.addEventListener('click', () =>{
+        searchContent.classList.remove('show-search')
     })
 }
 
