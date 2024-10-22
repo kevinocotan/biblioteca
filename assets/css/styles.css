@@ -140,7 +140,7 @@ img {
 /*=============== HEADER & NAV ===============*/
 
 .header {
-  postion: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -171,7 +171,7 @@ img {
 /* Navigation for mobile devices */
 
 @media screen and (max-width: 1150px) {
-  .nav__menu {
+  .nav__menu { 
     position: fixed;
     bottom: 0;
     left: 0;
@@ -243,7 +243,7 @@ img {
 }
 
 .search__form {
-  display: flex;
+  display: flex; 
   align-items: center;
   column-gap: 0.5rem;
   background-color: var(--container-color);
