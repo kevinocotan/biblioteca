@@ -3,5 +3,8 @@
         "activityBar.background": "#1A331A",
         "titleBar.activeBackground": "#244724",
         "titleBar.activeForeground": "#F8FCF8"
-    }
+    },
+    "cSpell.words": [
+        "swiper"
+    ]
 }
