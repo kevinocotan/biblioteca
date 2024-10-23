@@ -346,8 +346,7 @@ img {
   margin-bottom: 1.25rem;
 }
 
-
-.login__button{
+.login__button {
   width: 100%;
   cursor: pointer;
 }
@@ -363,12 +362,47 @@ img {
 
 /* Show login */
 
-.show-login{
+.show-login {
   top: 0;
 }
 
-
 /*=============== HOME ===============*/
+
+.home__swiper {
+  margin: initial;
+}
+
+.home__container {
+  padding-top: 2rem;
+  row-gap: 2.5rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home.title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__description {
+  margin-bottom: 2rem;
+}
+
+.home__images {
+  display: grid;
+}
+
+.home__article,
+.home__img {
+  width: 220px;
+  transition: scale .4s;
+}
+
+.home__article{
+  scale: .8;
+}
 
 /* Swiper class */
 
