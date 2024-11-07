@@ -73,7 +73,6 @@ $19.99
 .button
 Add To Cart
 
-
 ========== DISCOUNT ==========
 .section__title
 Up To 50% Discount 
@@ -86,7 +85,6 @@ discounts we have for you.
 
 .button
 Shop Now
-
 
 ========== NEW BOOKS ==========
 .section__title
