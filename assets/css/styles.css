@@ -225,10 +225,9 @@ img {
 
 /* Add shadow header */
 
-.shadow-header{
-  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 1)
+.shadow-header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 1);
 }
-
 
 /* Active link */
 
@@ -373,7 +372,7 @@ img {
 
 /*=============== HOME ===============*/
 
-.home__swiper{
+.home__swiper {
   margin: initial;
 }
 
@@ -402,17 +401,17 @@ img {
 .home__article,
 .home__img {
   width: 220px;
-  transition: scale .4s;
+  transition: scale 0.4s;
 }
 
-.home__article{
-  scale: .8;
+.home__article {
+  scale: 0.8;
 }
 
 /* Swiper class */
 
 .swiper-slide-active,
-.swiper-slide-duplicate-active{
+.swiper-slide-duplicate-active {
   scale: 1;
 }
 
@@ -433,150 +432,148 @@ img {
 
 /*=============== SERVICES ===============*/
 
-.services__container{
+.services__container {
   row-gap: 3rem;
 }
 
-
-.services__card{
+.services__card {
   text-align: center;
 }
 
-.services__card i{
+.services__card i {
   display: block;
   font-size: 3rem;
   color: var(--first-color);
   margin-bottom: 1rem;
 }
 
-.services__title{
+.services__title {
   font-size: var(--h3-font-size);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 /*=============== FEATURED ===============*/
 
-.featured__card{
+.featured__card {
   position: relative;
   text-align: center;
   background-color: var(--container-color);
   padding: 2rem;
   overflow: hidden;
   border: 2px solid var(--border-color);
-  transition: border .4s, background-color .4s;
+  transition: border 0.4s, background-color 0.4s;
 }
 
-.featured__img{
+.featured__img {
   width: 150px;
-  margin: 0 auto .75rem;
+  margin: 0 auto 0.75rem;
 }
 
-.featured__title{
+.featured__title {
   font-size: var(--h2-font-size);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.featured__prices{
+.featured__prices {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: .75rem;
+  column-gap: 0.75rem;
   margin-bottom: 1.25rem;
 }
 
-.featured__discount{
+.featured__discount {
   color: var(--title-color);
 }
 
-.featured__price{
+.featured__price {
   font-size: small var(--small-font-size);
   text-decoration: line-through;
 }
 
-.featured__card .button{
+.featured__card .button {
   cursor: pointer;
 }
 
-.featured__actions{
+.featured__actions {
   display: inline-flex;
   flex-direction: column;
-  row-gap: .75rem;
+  row-gap: 0.75rem;
   position: absolute;
   top: 2rem;
   right: -1.5rem;
-  transition: right .4s;
+  transition: right 0.4s;
 }
 
-.featured__actions button{
+.featured__actions button {
   background: none;
   font-size: 1.25rem;
   color: var(--first-color);
   cursor: pointer;
 }
 
-.featured__card:hover .featured__actions{
+.featured__card:hover .featured__actions {
   right: 1.5rem;
 }
 
 /* Swiper class */
 
 .swiper-button-prev::after,
-.swiper-button-next::after{
-  content: '';
+.swiper-button-next::after {
+  content: "";
 }
 
 .swiper-button-prev,
-.swiper-button-next{
+.swiper-button-next {
   width: initial;
   height: initial;
   background-color: var(--container-color);
   border: 2px solid var(--border-color);
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
   color: var(--first-color);
-  transition: border .4s background-color .4s;
+  transition: border 0.4s background-color 0.4s;
 }
-
 
 /*=============== DISCOUNT ===============*/
 
-.discount__container{
+.discount__container {
   row-gap: 3.5rem;
 }
 
-.discount__data{
+.discount__data {
   text-align: center;
 }
 
-.discount__title{
+.discount__title {
   margin-bottom: 1rem;
 }
 
-.discount__description{
+.discount__description {
   margin-bottom: 2rem;
 }
 
-.discount__images{
+.discount__images {
   display: flex;
   justify-content: center;
 }
 
 .discount__img-1,
-.discount__img-2{
+.discount__img-2 {
   width: 170px;
 }
 
-.discount__img-1{
+.discount__img-1 {
   transform: translateX(1rem) rotate(-10deg);
 }
 
-.discount__img-2{
+.discount__img-2 {
   transform: translateX(1rem) rotate(10deg);
 }
 
 /*=============== NEW ===============*/
 
-.new__card{
+.new__card {
   display: flex;
   align-items: center;
   column-gap: 2.5rem;
@@ -584,42 +581,45 @@ img {
   padding: 1.5rem 1rem;
   color: var(--text-color);
   border: 2px solid var(--border-color);
-  transition: border .4s, background-color .4s;
+  transition: border 0.4s, background-color 0.4s;
 }
 
-.new__card:hover{
+.new__card:hover {
   border: 2px solid var(--text-color);
 }
 
-.new__img{
+.new__img {
   width: 100px;
 }
 
-.new__title{
+.new__title {
   font-size: var(--h2-font-size);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.new__prices{
+.new__prices {
   display: flex;
   align-items: center;
-  column-gap: .75rem;
-  margin-bottom: .75rem;
+  column-gap: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
-.new__discount{
+.new__discount {
   color: var(--title-color);
 }
 
-.new__price{
+.new__price {
   font-size: var(--small-font-size);
   text-decoration: line-through;
 }
 
-.new__stars{
+.new__stars {
   color: var(--first-color);
 }
 
+.new__swiper:nth-child(1) {
+  margin-bottom: 2rem;
+}
 
 /*=============== JOIN ===============*/
 
